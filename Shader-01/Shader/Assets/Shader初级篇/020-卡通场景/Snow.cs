@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Snow : MonoBehaviour
+public class Snow_01 : MonoBehaviour
 {
     private const string SNOW_ON = "SNOW_ON";
 
