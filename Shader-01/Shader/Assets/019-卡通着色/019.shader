@@ -168,6 +168,7 @@
 
 				fixed3 diffuse = _LightColor0.rgb * albedo * _Diffuse.rgb * difLight;// * rampColor;
 
+            	//边缘光
 				float rim = 1 - dot(i.worldNormal, viewDir);
 				fixed3 rimColor = _RimColor * pow(rim, 1/_RimPower);
 
